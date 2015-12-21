@@ -3,10 +3,11 @@ platform :ios, '9.0'
 use_frameworks!
 
 pod 'Bolts'
-pod 'FBSDKCoreKit'
+pod 'FBSDKCoreKit', inhibit_warnings: true
+pod 'FBSDKLoginKit', inhibit_warnings: true
 pod 'RealmSwift'
 pod 'ModelMapper'
-  
+
 # Copy acknowledgements to the Settings.bundle
 post_install do | installer |
   require 'fileutils'
