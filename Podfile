@@ -6,7 +6,7 @@ pod 'Bolts'
 pod 'FBSDKCoreKit'
 pod 'RealmSwift'
 pod 'ModelMapper'
-
+  
 # Copy acknowledgements to the Settings.bundle
 post_install do | installer |
   require 'fileutils'
