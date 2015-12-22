@@ -18,6 +18,7 @@
 		63AD4CD71C28741F0079DBFF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD4CD61C28741F0079DBFF /* NotificationController.swift */; };
 		63AD4CD91C28741F0079DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CD81C28741F0079DBFF /* Assets.xcassets */; };
 		63AD4CDD1C28741F0079DBFF /* Hannibal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63AD4CBF1C28741F0079DBFF /* Hannibal WatchKit App.app */; };
+		63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC67E51C287DA200932084 /* LoginViewController.swift */; };
 		73A1D3AD004F62B1273D175A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3794AF9CDF0978CC12A2452 /* Foundation.framework */; };
 		7CF0490B8E7F6339239F3C6A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB2553B39B43A879CBFE4CD /* Pods.framework */; };
 		C898CECE606EEBDE03A136D7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3621A8366D627F3197CA219 /* Settings.bundle */; };
@@ -89,6 +90,7 @@
 		63AD4CD61C28741F0079DBFF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		63AD4CD81C28741F0079DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AD4CDA1C28741F0079DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BC67E51C287DA200932084 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63FDEAEF06588992A9AB692F /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFD4D97BDB59EEDFA315327 /* Hannibal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hannibal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCE54F8FA3A4274239578FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 		E1A096EC046FC22BD9BCC3CC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				63BC67E51C287DA200932084 /* LoginViewController.swift */,
 				63FDEAEF06588992A9AB692F /* AppDelegate.swift */,
 			);
 			path = Controllers;
@@ -588,6 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */,
 				EA9DC59E65D39A9EC7C7E610 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -946,6 +950,7 @@
 				63AD4CE11C28741F0079DBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63AD4CE41C28741F0079DBFF /* Build configuration list for PBXNativeTarget "Hannibal WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -954,6 +959,7 @@
 				63AD4CDF1C28741F0079DBFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		716D74DBA41B44E1813B37F4 /* Build configuration list for PBXProject "Hannibal" */ = {
 			isa = XCConfigurationList;

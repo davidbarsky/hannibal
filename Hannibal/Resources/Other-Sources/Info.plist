@@ -36,5 +36,50 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb1070049176379935</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>1070049176379935</string>
+    <key>FacebookDisplayName</key>
+    <string>Hannibal</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>facebook.com</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+            </dict>
+            <key>fbcdn.net</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+            </dict>
+            <key>akamaihd.net</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+                <false/>
+            </dict>
+        </dict>
+    </dict>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fbauth2</string>
+    </array>
 </dict>
 </plist>
