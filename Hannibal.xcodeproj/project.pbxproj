@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		19E958EF31B895BC94475F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF181355AF05E0D0A9F258E /* Images.xcassets */; };
 		31E3E059BEC780533D8A9B4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */; };
-		4AC0465BE979409E27490ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C272E44B5B27CAC9ECAE4B2 /* Main.storyboard */; };
+		4AC0465BE979409E27490ED9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */; };
 		63AD4CC31C28741F0079DBFF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CC11C28741F0079DBFF /* Interface.storyboard */; };
 		63AD4CC51C28741F0079DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CC41C28741F0079DBFF /* Assets.xcassets */; };
 		63AD4CCC1C28741F0079DBFF /* Hannibal WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63AD4CCB1C28741F0079DBFF /* Hannibal WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -19,6 +19,8 @@
 		63AD4CD91C28741F0079DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CD81C28741F0079DBFF /* Assets.xcassets */; };
 		63AD4CDD1C28741F0079DBFF /* Hannibal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63AD4CBF1C28741F0079DBFF /* Hannibal WatchKit App.app */; };
 		63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC67E51C287DA200932084 /* LoginViewController.swift */; };
+		63BC67E91C2B1C1600932084 /* FacebookLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */; };
+		63BC67ED1C2B1FD200932084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC67EC1C2B1FD200932084 /* Main.storyboard */; };
 		73A1D3AD004F62B1273D175A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3794AF9CDF0978CC12A2452 /* Foundation.framework */; };
 		7CF0490B8E7F6339239F3C6A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB2553B39B43A879CBFE4CD /* Pods.framework */; };
 		C898CECE606EEBDE03A136D7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3621A8366D627F3197CA219 /* Settings.bundle */; };
@@ -75,7 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1C272E44B5B27CAC9ECAE4B2 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4EB2553B39B43A879CBFE4CD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54720E69C62806A4975BB978 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,9 @@
 		63AD4CD81C28741F0079DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AD4CDA1C28741F0079DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BC67E51C287DA200932084 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		63BC67E71C2B1C1600932084 /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginTests.swift; sourceTree = "<group>"; };
+		63BC67EC1C2B1FD200932084 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63FDEAEF06588992A9AB692F /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFD4D97BDB59EEDFA315327 /* Hannibal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hannibal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCE54F8FA3A4274239578FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,7 +144,8 @@
 		27247F12E9BE0F707F6EF944 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				1C272E44B5B27CAC9ECAE4B2 /* Main.storyboard */,
+				63BC67EC1C2B1FD200932084 /* Main.storyboard */,
+				1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -246,6 +252,8 @@
 		9FA5A064E8DB1769D997DEF3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */,
+				63BC67E71C2B1C1600932084 /* UnitTests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -489,7 +497,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E958EF31B895BC94475F10 /* Images.xcassets in Resources */,
-				4AC0465BE979409E27490ED9 /* Main.storyboard in Resources */,
+				63BC67ED1C2B1FD200932084 /* Main.storyboard in Resources */,
+				4AC0465BE979409E27490ED9 /* Login.storyboard in Resources */,
 				31E3E059BEC780533D8A9B4D /* LaunchScreen.xib in Resources */,
 				C898CECE606EEBDE03A136D7 /* Settings.bundle in Resources */,
 			);
@@ -610,6 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC67E91C2B1C1600932084 /* FacebookLoginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hannibal.app/Hannibal";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -657,10 +668,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidbarsky.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UnitTests/Tests/UnitTests-Bridging-Header.h";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -670,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hannibal.app/Hannibal";
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -677,10 +691,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidbarsky.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UnitTests/Tests/UnitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
