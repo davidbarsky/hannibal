@@ -23,6 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("User is not logged in!")
         }
         
+        if (FBSDKAccessToken.currentAccessToken() != nil) {
+            self.window!.rootViewController = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateInitialViewController()
+        } else {
+            self.window!.rootViewController = UIStoryboard(name: "Login", bundle: NSBundle.mainBundle()).instantiateInitialViewController()
+        }
+        
         return true
     }
     
