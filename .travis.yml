@@ -13,3 +13,7 @@ branches:
 env: export LANG=en_US.UTF-8
 
 script: bin/test
+
+notifications:
+  email:
+    on_failure: change
