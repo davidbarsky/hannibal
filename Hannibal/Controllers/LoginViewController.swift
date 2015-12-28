@@ -14,7 +14,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let loginButton = FBSDKLoginButton()
         loginButton.center = self.view.center
         self.view.addSubview(loginButton)
@@ -26,7 +26,7 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation
