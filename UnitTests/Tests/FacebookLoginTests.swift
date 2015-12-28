@@ -20,8 +20,4 @@ class FacebookLoginTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-
-    func testPresenceOfLoginToken() {
-        XCTAssertNotNil(FBSDKAccessToken.currentAccessToken(), "Current Access Token should no be nil")
-    }
 }
