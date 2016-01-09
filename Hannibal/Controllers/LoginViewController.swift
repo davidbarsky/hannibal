@@ -14,12 +14,6 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let loginButton = FBSDKLoginButton()
-        loginButton.center = self.view.center
-        self.view.addSubview(loginButton)
-
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +21,21 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func loginButtonWasPressed(sender: AnyObject) {
+        let login = FBSDKLoginManager()
+        login.logInWithReadPermissions(["public_profile", "email", "user_friends"], fromViewController: self) { (result, error) -> Void in
+            if error != nil {
+                print("Error logging in: \(error)")
+            } else if result.isCancelled {
+                print("Login cancelled.")
+            } else {
+                let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                let initialViewController = mainStoryboard.instantiateViewControllerWithIdentifier("InitialViewController")
+
+                self.presentViewController(initialViewController, animated: true, completion: nil)
+            }
+        }
+    }
 
     /*
     // MARK: - Navigation

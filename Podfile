@@ -12,7 +12,14 @@ pod 'Moya/RxSwift'
 pod 'RxSwift',    '~> 2.0'
 pod 'RxCocoa',    '~> 2.0'
 pod 'RxBlocking', '~> 2.0'
-pod 'RxTests',    '~> 2.0'
+
+def test_pods
+  pod 'RxTests', '~> 2.0'
+end
+
+target 'UnitTests' do
+  test_pods
+end
 
 # Copy acknowledgements to the Settings.bundle
 post_install do | installer |

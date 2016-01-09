@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		19E958EF31B895BC94475F10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF181355AF05E0D0A9F258E /* Images.xcassets */; };
 		31E3E059BEC780533D8A9B4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */; };
+		3CFB7A5A8DD7A180033088C5 /* Pods_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBAF0F8571C1AB7165CFE /* Pods_UnitTests.framework */; };
 		4AC0465BE979409E27490ED9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */; };
 		6346CD2D1C31A5C500885BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346CD2C1C31A5C500885BDB /* Main.storyboard */; };
+		63956E421C4167540099BD23 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63956E411C4167540099BD23 /* LoginButton.swift */; };
+		63956E441C41777A0099BD23 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63956E431C41777A0099BD23 /* InitialViewController.swift */; };
 		63AD4CC31C28741F0079DBFF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CC11C28741F0079DBFF /* Interface.storyboard */; };
 		63AD4CC51C28741F0079DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CC41C28741F0079DBFF /* Assets.xcassets */; };
 		63AD4CCC1C28741F0079DBFF /* Hannibal WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63AD4CCB1C28741F0079DBFF /* Hannibal WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -77,11 +80,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		034EBAF0F8571C1AB7165CFE /* Pods_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		3E4F386B046A74CD2193768D /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4EB2553B39B43A879CBFE4CD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54720E69C62806A4975BB978 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6346CD2C1C31A5C500885BDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		63956E411C4167540099BD23 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		63956E431C41777A0099BD23 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		63AD4CBF1C28741F0079DBFF /* Hannibal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hannibal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AD4CC21C28741F0079DBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		63AD4CC41C28741F0079DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +104,7 @@
 		63BC67E71C2B1C1600932084 /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginTests.swift; sourceTree = "<group>"; };
 		63FDEAEF06588992A9AB692F /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		916FBC509872510864022B32 /* Pods-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CFD4D97BDB59EEDFA315327 /* Hannibal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hannibal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCE54F8FA3A4274239578FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D3794AF9CDF0978CC12A2452 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFB7A5A8DD7A180033088C5 /* Pods_UnitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +146,7 @@
 		08673DD65EFD22407919455F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				63956E411C4167540099BD23 /* LoginButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +196,7 @@
 			children = (
 				BF89F98071CD5EBC13BC2559 /* iOS */,
 				4EB2553B39B43A879CBFE4CD /* Pods.framework */,
+				034EBAF0F8571C1AB7165CFE /* Pods_UnitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -304,6 +315,8 @@
 			children = (
 				D6F0E3AC8E67DECB8A3CFEAB /* Pods.release.xcconfig */,
 				CCCE54F8FA3A4274239578FB /* Pods.debug.xcconfig */,
+				916FBC509872510864022B32 /* Pods-UnitTests.release.xcconfig */,
+				3E4F386B046A74CD2193768D /* Pods-UnitTests.debug.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -325,6 +338,7 @@
 		E1A096EC046FC22BD9BCC3CC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				63956E431C41777A0099BD23 /* InitialViewController.swift */,
 				63BC67E51C287DA200932084 /* LoginViewController.swift */,
 				63FDEAEF06588992A9AB692F /* AppDelegate.swift */,
 			);
@@ -379,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F281B18DE43CB32DF078F3 /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
+				5EC5FB1BABA28468A48B2B7D /* Check Pods Manifest.lock */,
 				BC914EE6695833F0C935A354 /* Sources */,
 				5F9342E3A0BDA0F1F6B67ADA /* Frameworks */,
 				AB7EB95C627295572C9D0715 /* Resources */,
+				27FB54CCBC92681948543181 /* Embed Pods Frameworks */,
+				A0507EA873DDA58CBCFA1E0E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -521,6 +538,21 @@
 			shellPath = /bin/sh;
 			shellScript = "git=$(sh /etc/profile; which git)\ngit_release_version=$(\"$git\" describe --tags --always --abbrev=0)\nnumber_of_commits=$(\"$git\" rev-list master --count)\ntarget_plist=\"$TARGET_BUILD_DIR/$INFOPLIST_PATH\"\ndsym_plist=\"$DWARF_DSYM_FOLDER_PATH/$DWARF_DSYM_FILE_NAME/Contents/Info.plist\"\n\nfor plist in \"$target_plist\" \"$dsym_plist\"; do\n  if [ -f \"$plist\" ]; then\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $number_of_commits\" \"$plist\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString ${git_release_version#*v}\" \"$plist\"\n  fi\ndone\n";
 		};
+		27FB54CCBC92681948543181 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		512578D92E1D39DBE056C496 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,6 +566,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EC5FB1BABA28468A48B2B7D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		63BAB8FA1C286C0200FA004A /* ShellScript */ = {
@@ -562,6 +609,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0507EA873DDA58CBCFA1E0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF3C2919BE6ECABCE68C7732 /* Check Pods Manifest.lock */ = {
@@ -601,7 +663,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */,
+				63956E421C4167540099BD23 /* LoginButton.swift in Sources */,
 				EA9DC59E65D39A9EC7C7E610 /* AppDelegate.swift in Sources */,
+				63956E441C41777A0099BD23 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,6 +722,7 @@
 /* Begin XCBuildConfiguration section */
 		0E6ECB5C1452303F2F3E4664 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916FBC509872510864022B32 /* Pods-UnitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hannibal.app/Hannibal";
 				CLANG_ENABLE_MODULES = YES;
@@ -677,6 +742,7 @@
 		};
 		2902D2E54E272DC1B88B578D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4F386B046A74CD2193768D /* Pods-UnitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hannibal.app/Hannibal";
 				CLANG_ENABLE_MODULES = YES;

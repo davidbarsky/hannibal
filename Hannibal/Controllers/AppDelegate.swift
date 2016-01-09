@@ -17,12 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
 
-        if (FBSDKAccessToken.currentAccessToken()) != nil {
-            print("User is logged in!")
-        } else {
-            print("User is not logged in!")
-        }
-
         if FBSDKAccessToken.currentAccessToken() != nil {
             self.window!.rootViewController = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateInitialViewController()
         } else {

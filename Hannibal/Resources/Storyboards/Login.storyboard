@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -16,15 +17,29 @@
                     <view key="view" contentMode="scaleToFill" id="4Cs-mw-ARc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMQ-Ja-lw0" customClass="LoginButton" customModule="Hannibal" customModuleProvider="target">
+                                <rect key="frame" x="36" y="389" width="303" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="y0t-nC-8mQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <state key="normal" title="Login with Facebook"/>
+                                <connections>
+                                    <action selector="loginButtonWasPressed:" destination="Xqf-UF-eBr" eventType="touchUpInside" id="Gw7-Ma-3zz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="top" secondItem="AM9-g0-SJe" secondAttribute="bottom" constant="369" id="1If-jf-xMD"/>
+                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="leading" secondItem="4Cs-mw-ARc" secondAttribute="leadingMargin" constant="20" id="W9l-dA-dyP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XMQ-Ja-lw0" secondAttribute="trailing" constant="20" id="pPx-m8-AoT"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeR-Mt-aZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <containerView opaque="NO" contentMode="scaleToFill" id="ux1-Yd-kc9">
-                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                </containerView>
             </objects>
             <point key="canvasLocation" x="806" y="179"/>
         </scene>
