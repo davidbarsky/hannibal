@@ -12,11 +12,11 @@ import FBSDKLoginKit
 
 class FacebookLoginTests: XCTestCase {
 
-    override func setUp() {
+    override func setUp() -> Void {
         super.setUp()
     }
 
-    override func tearDown() {
+    override func tearDown() -> Void {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }

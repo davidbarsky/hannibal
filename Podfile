@@ -7,6 +7,12 @@ pod 'FBSDKCoreKit', inhibit_warnings: true
 pod 'FBSDKLoginKit', inhibit_warnings: true
 pod 'RealmSwift'
 pod 'ModelMapper'
+pod 'Moya'
+pod 'Moya/RxSwift'
+pod 'RxSwift',    '~> 2.0'
+pod 'RxCocoa',    '~> 2.0'
+pod 'RxBlocking', '~> 2.0'
+pod 'RxTests',    '~> 2.0'
 
 # Copy acknowledgements to the Settings.bundle
 post_install do | installer |
