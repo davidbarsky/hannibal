@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
 
     @IBAction func loginButtonWasPressed(sender: AnyObject) {
         let login = FBSDKLoginManager()
-        login.logInWithReadPermissions(["public_profile", "email", "user_friends"], fromViewController: self) { (result, error) -> Void in
+        login.logInWithReadPermissions(["public_profile", "email", "user_friends"], fromViewController: self) { (result, error) in
             if error != nil {
                 print("Error logging in: \(error)")
             } else if result.isCancelled {

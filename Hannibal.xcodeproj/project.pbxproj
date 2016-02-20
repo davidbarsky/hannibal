@@ -11,6 +11,9 @@
 		31E3E059BEC780533D8A9B4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */; };
 		3CFB7A5A8DD7A180033088C5 /* Pods_UnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034EBAF0F8571C1AB7165CFE /* Pods_UnitTests.framework */; };
 		4AC0465BE979409E27490ED9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C272E44B5B27CAC9ECAE4B2 /* Login.storyboard */; };
+		6312A32C1C42D3860018083D /* UIColor+Hannibal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A32B1C42D3860018083D /* UIColor+Hannibal.swift */; };
+		6312A32E1C458DA80018083D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A32D1C458DA80018083D /* Models.swift */; };
+		6312A32F1C458DA80018083D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A32D1C458DA80018083D /* Models.swift */; };
 		6346CD2D1C31A5C500885BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6346CD2C1C31A5C500885BDB /* Main.storyboard */; };
 		63956E421C4167540099BD23 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63956E411C4167540099BD23 /* LoginButton.swift */; };
 		63956E441C41777A0099BD23 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63956E431C41777A0099BD23 /* InitialViewController.swift */; };
@@ -86,6 +89,8 @@
 		413C40D6FA76FC2D62C3F5BF /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4EB2553B39B43A879CBFE4CD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54720E69C62806A4975BB978 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6312A32B1C42D3860018083D /* UIColor+Hannibal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hannibal.swift"; sourceTree = "<group>"; };
+		6312A32D1C458DA80018083D /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		6346CD2C1C31A5C500885BDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		63956E411C4167540099BD23 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		63956E431C41777A0099BD23 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -249,6 +254,7 @@
 		6FDA23FAE9CED56CFF192C2B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6312A32D1C458DA80018083D /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 		DAAB0417128E7054DA863F07 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6312A32B1C42D3860018083D /* UIColor+Hannibal.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -665,7 +672,9 @@
 				63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */,
 				63956E421C4167540099BD23 /* LoginButton.swift in Sources */,
 				EA9DC59E65D39A9EC7C7E610 /* AppDelegate.swift in Sources */,
+				6312A32C1C42D3860018083D /* UIColor+Hannibal.swift in Sources */,
 				63956E441C41777A0099BD23 /* InitialViewController.swift in Sources */,
+				6312A32E1C458DA80018083D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +693,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63BC67E91C2B1C1600932084 /* FacebookLoginTests.swift in Sources */,
+				6312A32F1C458DA80018083D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

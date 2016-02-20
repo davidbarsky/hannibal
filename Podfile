@@ -14,7 +14,7 @@ pod 'RxCocoa',    '~> 2.0'
 pod 'RxBlocking', '~> 2.0'
 
 def test_pods
-  pod 'RxTests', '~> 2.0'
+  pod 'RxTests'
 end
 
 target 'UnitTests' do

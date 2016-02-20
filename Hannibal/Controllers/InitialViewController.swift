@@ -13,7 +13,6 @@ class InitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("Loaded!")
         // Do any additional setup after loading the view.
     }
 
