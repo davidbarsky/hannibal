@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xqf-UF-eBr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10115" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xqf-UF-eBr">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10084"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
@@ -14,34 +13,63 @@
                         <viewControllerLayoutGuide type="top" id="AM9-g0-SJe"/>
                         <viewControllerLayoutGuide type="bottom" id="p9W-lV-J0I"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4Cs-mw-ARc">
+                    <view key="view" contentMode="scaleToFill" id="4Cs-mw-ARc" customClass="LoginBackgroundView" customModule="Hannibal" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMQ-Ja-lw0" customClass="LoginButton" customModule="Hannibal" customModuleProvider="target">
-                                <rect key="frame" x="36" y="389" width="303" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fitter, Happier, More Productive." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPt-Jt-8dR">
+                                <rect key="frame" x="77" y="229" width="220" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="y0t-nC-8mQ"/>
+                                    <constraint firstAttribute="height" constant="70" id="409-dE-0eC"/>
+                                    <constraint firstAttribute="width" constant="220" id="pBb-1b-mLG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swolemates is the best way to get and stay fit with your friends." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fo3-un-gBE">
+                                <rect key="frame" x="37" y="299" width="300" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Gqx-hl-r1S"/>
+                                    <constraint firstAttribute="width" constant="300" id="PQS-NT-teo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="0.90482954545454541" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMQ-Ja-lw0" customClass="LoginButton" customModule="Hannibal" customModuleProvider="target">
+                                <rect key="frame" x="37.5" y="387" width="300" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ay7-Ah-dXq"/>
+                                    <constraint firstAttribute="width" constant="300" id="bqw-kv-Iax"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <state key="normal" title="Login with Facebook"/>
                                 <connections>
-                                    <action selector="loginButtonWasPressed:" destination="Xqf-UF-eBr" eventType="touchUpInside" id="Gw7-Ma-3zz"/>
+                                    <action selector="facebookLoginButtonWasPressed:" destination="Xqf-UF-eBr" eventType="touchUpInside" id="Uza-XQ-McY"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="top" secondItem="AM9-g0-SJe" secondAttribute="bottom" constant="369" id="1If-jf-xMD"/>
-                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="leading" secondItem="4Cs-mw-ARc" secondAttribute="leadingMargin" constant="20" id="W9l-dA-dyP"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="XMQ-Ja-lw0" secondAttribute="trailing" constant="20" id="pPx-m8-AoT"/>
+                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="top" secondItem="Fo3-un-gBE" secondAttribute="bottom" constant="18" id="5jE-H0-gTN"/>
+                            <constraint firstItem="Fo3-un-gBE" firstAttribute="centerY" secondItem="4Cs-mw-ARc" secondAttribute="centerY" id="HiT-Jf-bOV"/>
+                            <constraint firstItem="Fo3-un-gBE" firstAttribute="centerX" secondItem="uPt-Jt-8dR" secondAttribute="centerX" id="ONv-Vr-nye"/>
+                            <constraint firstItem="XMQ-Ja-lw0" firstAttribute="centerX" secondItem="4Cs-mw-ARc" secondAttribute="centerX" id="fNb-Q1-3da"/>
+                            <constraint firstItem="Fo3-un-gBE" firstAttribute="top" secondItem="uPt-Jt-8dR" secondAttribute="bottom" id="pxj-V4-OJ6"/>
+                            <constraint firstItem="uPt-Jt-8dR" firstAttribute="centerX" secondItem="4Cs-mw-ARc" secondAttribute="centerX" id="yxx-G1-OLb"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
+                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeR-Mt-aZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="806" y="179"/>
+            <point key="canvasLocation" x="805.5" y="178.5"/>
         </scene>
     </scenes>
 </document>

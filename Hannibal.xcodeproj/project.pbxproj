@@ -25,6 +25,7 @@
 		63AD4CD71C28741F0079DBFF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD4CD61C28741F0079DBFF /* NotificationController.swift */; };
 		63AD4CD91C28741F0079DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD4CD81C28741F0079DBFF /* Assets.xcassets */; };
 		63AD4CDD1C28741F0079DBFF /* Hannibal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 63AD4CBF1C28741F0079DBFF /* Hannibal WatchKit App.app */; };
+		63BBDA001C88039900CE5B00 /* LoginBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBD9FF1C88039900CE5B00 /* LoginBackgroundView.swift */; };
 		63BC67E61C287DA200932084 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC67E51C287DA200932084 /* LoginViewController.swift */; };
 		63BC67E91C2B1C1600932084 /* FacebookLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */; };
 		73A1D3AD004F62B1273D175A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3794AF9CDF0978CC12A2452 /* Foundation.framework */; };
@@ -105,6 +106,7 @@
 		63AD4CD61C28741F0079DBFF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		63AD4CD81C28741F0079DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63AD4CDA1C28741F0079DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BBD9FF1C88039900CE5B00 /* LoginBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBackgroundView.swift; sourceTree = "<group>"; };
 		63BC67E51C287DA200932084 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		63BC67E71C2B1C1600932084 /* UnitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		63BC67E81C2B1C1600932084 /* FacebookLoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginTests.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				63956E411C4167540099BD23 /* LoginButton.swift */,
+				63BBD9FF1C88039900CE5B00 /* LoginBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				6312A32C1C42D3860018083D /* UIColor+Hannibal.swift in Sources */,
 				63956E441C41777A0099BD23 /* InitialViewController.swift in Sources */,
 				6312A32E1C458DA80018083D /* Models.swift in Sources */,
+				63BBDA001C88039900CE5B00 /* LoginBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,8 @@ class LoginButton: UIButton {
     override func layoutSubviews() {
         super.layoutSubviews()
 
-        layer.backgroundColor = UIColor.primaryOrangeColor().CGColor
-        layer.cornerRadius = 5
+        layer.backgroundColor = UIColor.tertiaryPurpleColor().CGColor
+        layer.cornerRadius = 8
         self.setTitleColor(.whiteColor(), forState: .Normal)
     }
 }
